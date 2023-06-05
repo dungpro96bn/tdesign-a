@@ -35,20 +35,18 @@
     </script>
 
     <!--CDN-->
-    <link rel="stylesheet" href="https://use.typekit.net/wrt3txd.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/ycj5opp.css">
+    <link href="<?php bloginfo('template_directory'); ?>/assets/css/all.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory'); ?>/assets/css/slick.min.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory'); ?>/assets/css/slick-theme.min.css" rel="stylesheet">
 
     <!--stylesheet-->
     <link href="<?php bloginfo('template_directory'); ?>/assets/css/animate.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/assets/css/destyle.css" rel="stylesheet">
-    <link href="<?php bloginfo('template_directory'); ?>/assets/css/slick-theme.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/assets/css/drawer.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/assets/css/common.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/assets/css/style.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory'); ?>/assets/css/upgrade.css" rel="stylesheet">
 
     <?php
     wp_deregister_script('jquery');
@@ -56,8 +54,7 @@
     wp_head();
     ?>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/assets/js/iscroll.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.inview.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/assets/js/ofi.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/assets/js/slick.min.js"></script>
@@ -67,14 +64,14 @@
     <script src="<?php bloginfo('template_directory'); ?>/assets/js/main.js"></script>
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-K3DC3L7');</script>
+<!--    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':-->
+<!--                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],-->
+<!--            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=-->
+<!--            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);-->
+<!--        })(window,document,'script','dataLayer','GTM-K3DC3L7');</script>-->
     <!-- End Google Tag Manager -->
 
-    <script src="https://webfont.fontplus.jp/accessor/script/fontplus.js?Wp9v7ZoPD1Y%3D&box=l5sr6mqpDb4%3D&aa=1&ab=2"></script>
+<!--    <script src="https://webfont.fontplus.jp/accessor/script/fontplus.js?Wp9v7ZoPD1Y%3D&box=l5sr6mqpDb4%3D&aa=1&ab=2"></script>-->
 
 </head>
 
@@ -104,13 +101,12 @@
                 </a>
             </div>
             <nav class="header-menu">
-                <ul class="flex-L flex-column">
+                <ul class="flex-L flex-column en">
                     <li><a class="hov-C" href="#about">About Us</a></li>
                     <li><a class="hov-C" href="#service">Our Business</a></li>
-                    <li><a href="#news">Corporate News</a></li>
                     <li><a href="#company">Company Information</a></li>
-                    <li><a class="hov-G" href="#recruit">Recruit</a></li>
-                    <li><a class="hov-M" href="#contact">Contact US</a></li>
+                    <li><a class="btn-recruit btn-link" href="#recruit">Recruit</a></li>
+                    <li><a class="btn-contact btn-link" href="/contact/">Contact US</a></li>
                 </ul>
             </nav>
         </header>

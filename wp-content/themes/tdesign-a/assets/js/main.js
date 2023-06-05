@@ -27,6 +27,24 @@ jQuery(function ($) {
         });
     });
 
+    $(window).scroll(function () {
+        $('.border-animation').each(function () {
+            var ptop = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height() - 150;
+            if (scroll > ptop - windowHeight) {
+                $(this).addClass('active');
+            }
+        });
+    });
+    $('.border-animation').each(function () {
+        var ptop = $(this).offset().top;
+        var firstView = $(window).scrollTop();
+        var windowHeight = $(window).height() - 150;
+        if (firstView > ptop - windowHeight) {
+            $(this).addClass('active');
+        }
+    });
 
 
 });
