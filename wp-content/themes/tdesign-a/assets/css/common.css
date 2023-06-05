@@ -15,16 +15,17 @@ body {
   '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック','Yu Gothic',
   'Hiragino Kaku Gothic ProN','メイリオ', arial, Meiryo,
   'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif; */
-  font-family: 'freight-big-pro', 'FOT筑紫明朝 Pr6 R', '游明朝', 'Yu Mincho', 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+  /*font-family: 'freight-big-pro', 'FOT筑紫明朝 Pr6 R', '游明朝', 'Yu Mincho', 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;*/
   font-size: 1.8rem;
   line-height: 1.8;
-  text-align: justify;
-  text-justify: inter-ideograph;
-  -webkit-font-feature-settings: "pkna";
-  font-feature-settings: "pkna";
+  /*text-align: justify;*/
+  /*text-justify: inter-ideograph;*/
+  /*-webkit-font-feature-settings: "pkna";*/
+  /*font-feature-settings: "pkna";*/
   letter-spacing: .16em;
   color: #fff;
   background-color: #000;
+  font-family: "fot-tsukumin-pr6n", sans-serif;
 }
 
 section {

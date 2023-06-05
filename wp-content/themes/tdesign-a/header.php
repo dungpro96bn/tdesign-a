@@ -23,6 +23,17 @@
     <link rel="stylesheet" media="all" href="<?php bloginfo('stylesheet_url'); ?>?ver=<?php echo rand(); ?>">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'ztd5iem',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+    </script>
+
     <!--CDN-->
     <link rel="stylesheet" href="https://use.typekit.net/wrt3txd.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -53,6 +64,7 @@
     <script src="<?php bloginfo('template_directory'); ?>/assets/js/slider.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/assets/js/drawer.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/assets/js/common.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/assets/js/main.js"></script>
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
