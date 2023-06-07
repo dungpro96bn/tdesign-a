@@ -117,4 +117,13 @@ function breadcrumb($divOption = array("id" => "breadcrumb", "class" => "breadcr
 	echo $str;
 }
 
-?>
+function my_error_message( $error, $key, $rule ) {
+    if ( $key === 'company-name' || $key === 'your-name' || $key === 'name-furigana' || $key === 'email' || $key === 'phone-number' || $key === 'message' ) {
+        return '必須項目に入力してください';
+    }
+    if ( $rule === 'content-of-inquiry' ) {
+        return '選んでください';
+    }
+    return $error;
+}
+add_filter( 'mwform_error_message_mw-wp-form-24', 'my_error_message', 10, 3 );

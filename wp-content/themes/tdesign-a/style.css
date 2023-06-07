@@ -11,11 +11,22 @@ Author URI: http://www.1049.cc
 .en, .ttl-en, .number{
     font-family: "freight-big-pro", serif;
 }
+main{
+    flex: 1 1 auto;
+}
+body > .wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+input::placeholder{
+    color: #B5B5B5;
+}
 
-
-
-
-
-
+@media screen and (max-width: 600px){
+    #wpadminbar {
+        position: fixed !important;
+    }
+}
 
 

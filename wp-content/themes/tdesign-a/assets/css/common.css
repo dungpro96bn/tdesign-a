@@ -28,6 +28,10 @@ body {
     font-family: "fot-tsukumin-pr6n", sans-serif;
 }
 
+input, button, textarea, select{
+    font-family: "fot-tsukumin-pr6n", sans-serif;
+}
+
 section {
     padding: 6.4rem 0;
     position: relative;
@@ -1107,7 +1111,7 @@ footer .moving-text p {
 
 footer .moving-text p img {
     margin: 1px 15px;
-    animation: moving 30s linear infinite;
+    animation: moving 50s linear infinite;
 }
 
 p.copyright {

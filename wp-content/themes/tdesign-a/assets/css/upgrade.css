@@ -469,6 +469,14 @@ footer{
 }
 
 
+@media (max-width: 1240px) {
+
+    #header{
+        padding-top: 20px;
+    }
+
+}
+
 
 @media (max-width: 1280px) {
 

@@ -47,6 +47,7 @@
     <link href="<?php bloginfo('template_directory'); ?>/assets/css/common.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/assets/css/style.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/assets/css/upgrade.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory'); ?>/assets/css/page-custom.css" rel="stylesheet">
 
     <?php
     wp_deregister_script('jquery');
@@ -72,6 +73,34 @@
     <!-- End Google Tag Manager -->
 
 <!--    <script src="https://webfont.fontplus.jp/accessor/script/fontplus.js?Wp9v7ZoPD1Y%3D&box=l5sr6mqpDb4%3D&aa=1&ab=2"></script>-->
+
+    <?php if (is_admin_bar_showing()): ?>
+        <style type="text/css" media="screen">
+            html {
+                margin-top: 32px !important;
+            }
+            @media (max-width: 1240px) {
+                .drawer-hamburger,
+                .drawer-open .drawer-box .drawer-nav{
+                    top: 32px !important;
+                }
+            }
+            @media screen and (max-width: 782px) {
+                html {
+                    margin-top: 46px !important;
+                }
+                .drawer-hamburger,
+                .drawer-open .drawer-box .drawer-nav{
+                    top: 46px !important;
+                }
+            }
+            @media screen and (max-width: 767px) {
+                .drawer-hamburger{
+                    top: 46px !important;
+                }
+            }
+        </style>
+    <?php endif; ?>
 
 </head>
 
