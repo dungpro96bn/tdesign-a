@@ -416,7 +416,7 @@ footer{
     background-color: #c6c6c6;
 }
 .drawer-box .drawer-menu {
-    padding: 30px 30px 8px;
+    padding: 50px 30px 8px;
 }
 
 
@@ -513,7 +513,7 @@ footer{
         object-position: left;
     }
     .service-box{
-        width: 50%;
+        width: 40%;
     }
     #service .content-box{
         max-width: 50%;
@@ -638,6 +638,9 @@ footer{
         width: 600px;
         height: 600px;
     }
+    .service-box{
+        width: 30%;
+    }
     .service-slider .slick-list, .service-slider .slick-track {
         height: 600px;
     }
@@ -756,6 +759,9 @@ footer{
     #header {
         padding: 18px 15px 13px;
         height: 80px;
+    }
+    .drawer-box .drawer-menu {
+        padding: 30px 30px 8px;
     }
     .drawer-box .header-logo{
         margin-top: 21px;
