@@ -9,8 +9,10 @@ get_header();
             <div class="main-banner container">
                 <div class="top-catch">
                     <div class="header-main">
+                        <p class="t1 en sp-br">Our Stance</p>
                         <h1 class="heading-main">伝わる<br/>クリエイティブを<br/>必要な時に、すぐ。</h1>
-                        <p class="description en">Creative that communicates,<br/>when you need it, Immediately<br/>when needed.</p>
+                        <p class="description en">Creative that communicates,<br/>when you need it, <br class="sp-br"/>Immediately <br class="pc-br"/>when needed.</p>
+                        <p class="subTtl en sp-br">We are creative agency<br/>specialising in the HR area.</p>
                     </div>
                 </div>
                 <div class="top-descr">
@@ -66,7 +68,7 @@ get_header();
                     <div class="text-box">
                         <p>人材採用のオンライン化が進み、求人コミュニケーションのデジタル化需要が増加しています。<br>これまで求人メディアへのテキストと画像による入稿が中心だった求人コンテンツは、<br>採用専用WEBサイトの開設と運用、採用動画コンテンツの提供など多様な進化を見せています。<br>こういった中、多くの企業の採用の現場ではWEBサイト等のUI/UXの向上やコンテンツ制作と<br>運用の体制づくりが課題となっています。</p>
                         <p>キャムコムグループではこれまで、中核となるHR領域のサービス向上のため、<br/>グループ内でコンテンツ制作体制を構築してきましたが、増加する顧客ニーズに応えるため<br/>新会社を設立しました。</p>
-                        <p>新会社「株式会社東京デザインアーツ」は、UI/UXデザインサービスとデジタルコンテンツの<br>運用プラットフォームを中心的なサービスとして提供いたします。<br>また、若手人材への業務提供を通じて、雇用の創出とクリエイター人材の<br>育成・輩出を進めてまいります。</p>
+                        <p>新会社「株式会社東京デザインアーツ」は、UI/UXデザインサービスとデジタルコンテンツの<br>運用プラットフォームを中心的なサービスとして提供いたします。<br class="br-show">また、若手人材への業務提供を通じて、雇用の創出とクリエイター人材の<br>育成・輩出を進めてまいります。</p>
                     </div>
                 </div>
             </div>
@@ -82,22 +84,17 @@ get_header();
                     <p class="subTtl">サービスについて</p>
                 </div>
                 <div class="text-box">
-                    <p class="text">・UI/UX制作事業並びに動画サービス提供を中心とする<br/>
-                        デジタルプラットフォーム事業をコア事業として、<br/>
-                        HR領域において顧客企業のデジタルコミュニケーションを<br/>
-                        促進するサービスを提供<br/>
-                        ・若手人材への業務提供を通じて、<br/>
-                        雇用の創出とクリエイター人材の育成・輩出</p>
+                    <p class="text">・UI/UX制作事業並びに動画サービス提供を中心とする<br class="pc-br"/>デジタルプラットフォーム事業をコア事業として、<br class="pc-br"/>HR領域において顧客企業のデジタルコミュニケーションを<br class="pc-br"/>促進するサービスを提供<br/>・若手人材への業務提供を通じて、<br/>雇用の創出とクリエイター人材の育成・輩出</p>
                 </div>
-                <div class="list-service">
+                <div class="list-service pc-br">
                     <div class="service-item">
-                        <a href="#">UI／UXデザイン、ディレクション事業</a>
+                        <p>UI／UXデザイン、ディレクション事業</p>
                     </div>
                     <div class="service-item">
-                        <a href="#">マッチングプラットフォーム事業</a>
+                        <p>マッチングプラットフォーム事業</p>
                     </div>
                     <div class="service-item">
-                        <a href="#">前トレ動画事業</a>
+                        <p>前トレ動画事業</p>
                     </div>
                 </div>
             </div>
@@ -160,16 +157,27 @@ get_header();
                 </div>
 <!--                <span class="click">Click</span>-->
             </div>
+            <div class="list-service">
+                <div class="service-item">
+                    <p>UI／UXデザイン、ディレクション事業</p>
+                </div>
+                <div class="service-item">
+                    <p>マッチングプラットフォーム事業</p>
+                </div>
+                <div class="service-item">
+                    <p>前トレ動画事業</p>
+                </div>
+            </div>
         </div>
         <div class="link-page container">
-            <a href="#">UIUXデザイン、ディレクションサービス詳細へ</a>
+            <a href="/service/">UIUXデザイン、<br class="sp-br"/>ディレクションサービス詳細へ</a>
         </div>
         <div class="moving-text en">
             <div>
-                <p>Create for your servise and project.User </p>
-                <p>Create for your servise and project.User </p>
+                <p>Create for your servise and project.User <span class="pc-br">Interface/User Experience/Digital Contents</span></p>
+                <p class="sp-br">Create for your servise and project.User </p>
             </div>
-            <div>
+            <div class="sp-br">
                 <p>Interface/User Experience/Digital Contents </p>
                 <p>Interface/User Experience/Digital Contents </p>
             </div>
@@ -243,10 +251,10 @@ get_header();
                         <p class="ttl">Location</p>
                         <div class="info">
                             <div class="text-info">
-                                <p>Minatoku, Shibadaimon, 1- 10-11, Tokyo<br/>Nishi shinjyuku office<br/>#105-0012</p>
+                                <p>Minatoku, Shibadaimon, <br class="sp-br"/>1- 10-11, Tokyo<br/>Nishi shinjyuku office<br/>#105-0012</p>
                             </div>
                             <div class="text-info">
-                                <p>Shinjyuku, Nishishinjyuku, 1-25-1, Tokyo<br/>ShinjyukuCenterBild 37F<br/>#160-0023</p>
+                                <p><span class="sp-br">Tokyo Design ARTS, Inc</span>Shinjyuku, Nishishinjyuku, 1-25-1, Tokyo<br/>ShinjyukuCenterBild 37F<br/>#160-0023</p>
                             </div>
                         </div>
                     </li>
@@ -277,15 +285,17 @@ get_header();
     <section id="recruit">
         <div class="container flex-L">
             <div class="recruit-descr">
-                <div class="title-entry border-animation">
-                    <h2 class="heading-block en">Recruit</h2>
-                    <p class="subTtl">採用情報</p>
-                </div>
-                <div class="text-box">
-                    <p>現在弊社では、新規事業立ち上げに伴い、<br/>HR領域に興味のある正社員クリエイターを募集中です。<br/>興味のある方は、右の職種よりお問合せください。</p>
-                </div>
-                <div class="link-page">
-                    <a href="#">採用について詳しくはこちら</a>
+                <div class="recruit-inner">
+                    <div class="title-entry border-animation">
+                        <h2 class="heading-block en">Recruit</h2>
+                        <p class="subTtl">採用情報</p>
+                    </div>
+                    <div class="text-box">
+                        <p>現在弊社では、新規事業立ち上げに伴い、<br/>HR領域に興味のある正社員クリエイターを募集中です。<br class="pc-br"/>興味のある方は、右の職種よりお問合せください。</p>
+                    </div>
+                    <div class="link-page">
+                        <a target="_blank" href="https://ten.1049.cc/tp/1049creator/">採用について詳しくはこちら</a>
+                    </div>
                 </div>
             </div>
             <div class="recruit-menu">
@@ -294,13 +304,13 @@ get_header();
                         <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E5%8B%95%E7%94%BB%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC&amp;body=" class="icon-link">動画ディレクター</a>
                     </li>
                     <li>
-                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E4%BC%9A%E7%A4%BE%E5%95%86%E6%A8%99%E6%8B%85%E5%BD%93(%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8A%E3%83%BC)&amp;body=" class="">会社商標担当(デザイナー)</a>
+                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E4%BC%9A%E7%A4%BE%E5%95%86%E6%A8%99%E6%8B%85%E5%BD%93(%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8A%E3%83%BC)&amp;body=" class="icon-link">会社商標担当(デザイナー)</a>
                     </li>
                     <li>
                         <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E7%A4%BE%E5%86%85%E3%83%84%E3%83%BC%E3%83%AB%E6%8B%85%E5%BD%93(%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8A%E3%83%BC/%E3%83%9E%E3%83%BC%E3%82%B1)&amp;body=" class="icon-link">社内ツール担当(デザイナー/マーケ)</a>
                     </li>
                     <li>
-                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91WEB%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC(%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC)&amp;body=" class="">WEBプランナー(ディレクター)</a>
+                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91WEB%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC(%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC)&amp;body=" class="icon-link">WEBプランナー(ディレクター)</a>
                     </li>
                     <li>
                         <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91WEB%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC&amp;body=" class="icon-link">WEBディレクター</a>
@@ -312,7 +322,7 @@ get_header();
                         <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC&amp;body=" class="icon-link">コーダー</a>
                     </li>
                     <li>
-                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E5%BA%83%E5%91%8A%E9%81%8B%E7%94%A8%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%82%BF%E3%83%BC&amp;body=" class="">広告運用マーケッター</a>
+                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E5%BA%83%E5%91%8A%E9%81%8B%E7%94%A8%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%82%BF%E3%83%BC&amp;body=" class="icon-link">広告運用マーケッター</a>
                     </li>
                 </ul>
                 <p class="txt-title en">フリーランス採用もおこなっております</p>

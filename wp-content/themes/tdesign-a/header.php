@@ -115,7 +115,7 @@
                 <span class="sr-only">toggle navigation</span>
                 <span class="drawer-hamburger-icon"></span>
             </button>
-            <nav class="drawer-nav">
+            <nav class="drawer-nav en">
                 <div class="header-logo">
                     <a href="/">
                         <img src="<?php bloginfo('template_directory'); ?>/images/logo-sp.svg" alt="Tokyo Design ARTS">
@@ -124,10 +124,9 @@
                 <ul class="drawer-menu">
                     <li><a class="hov-C" href="#about">About Us</a></li>
                     <li><a class="hov-C" href="#service">Our Business</a></li>
-                    <li><a href="#news">Corporate News</a></li>
                     <li><a href="#company">Company Information</a></li>
-                    <li><a class="hov-G" href="#recruit">Recruit</a></li>
-                    <li><a class="hov-M" href="#contact">Contact US</a></li>
+                    <li class="menuItem-recruit"><a class="hov-G btn-recruit btn-link" href="#recruit">Recruit</a></li>
+                    <li class="menuItem-contact"><a class="hov-M btn-contact btn-link" href="/contact/">Contact US</a></li>
                 </ul>
                 <p class="copyright">Copyright ©Tokyo Design ARTS, Inc.</p>
             </nav>

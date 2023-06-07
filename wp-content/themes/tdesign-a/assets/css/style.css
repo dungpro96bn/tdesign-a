@@ -134,9 +134,9 @@ body > .wrapper {
     right: 0;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    bottom: 138px;
+    bottom: 83px;
     letter-spacing: 0.8px;
-    padding: 51px;
+    padding: 56px;
 }
 
 .top-url p {
@@ -233,11 +233,8 @@ body > .wrapper {
 
 }
 
-@media only screen and (max-width: 767px) {
 
-    .bg-img::before {
-        height: 1000px;
-    }
+@media only screen and (max-width: 767px) {
 
     #fv {
         padding-top: 120px;
@@ -419,6 +416,10 @@ body > .wrapper {
 
     #about .content-box .text-box br {
         display: none;
+    }
+
+    #about .content-box .text-box br.br-show {
+        display: block;
     }
 
     #about .title-2 .under-line::before {
@@ -645,10 +646,6 @@ body > .wrapper {
 
     #service .content-box .text-box {
         margin-bottom: 40px;
-    }
-
-    #service .content-box .text-box br {
-        display: none;
     }
 
     .service-slider .slick-list,
@@ -1020,16 +1017,18 @@ body > .wrapper {
 
 .recruit-descr {
     width: 100%;
-    max-width: 546px;
-    margin-right: 150px;
+    max-width: 50%;
+    margin-right: 0;
+    padding-right: 40px;
 }
 
 .recruit-menu {
     width: 100%;
-    min-width: 750px;
+    min-width: auto;
     margin-right: -60px;
     padding-left: 9px;
     padding-top: 12px;
+    max-width: calc(50% + 60px);
 }
 
 .recruit-menu ul {
@@ -1048,7 +1047,7 @@ body > .wrapper {
     text-decoration: none;
     position: relative;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 1.5;
     letter-spacing: 1px;
 }
 .recruit-menu li a:before{
