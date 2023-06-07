@@ -157,7 +157,7 @@ get_header();
                 </div>
 <!--                <span class="click">Click</span>-->
             </div>
-            <div class="list-service">
+            <div class="list-service sp-br">
                 <div class="service-item">
                     <p>UI／UXデザイン、ディレクション事業</p>
                 </div>

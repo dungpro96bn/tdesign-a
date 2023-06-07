@@ -513,7 +513,7 @@ footer{
         object-position: left;
     }
     .service-box{
-        width: 40%;
+        width: 50%;
     }
     #service .content-box{
         max-width: 50%;
@@ -637,9 +637,6 @@ footer{
     .service-box::before{
         width: 600px;
         height: 600px;
-    }
-    .service-box{
-        width: 30%;
     }
     .service-slider .slick-list, .service-slider .slick-track {
         height: 600px;
