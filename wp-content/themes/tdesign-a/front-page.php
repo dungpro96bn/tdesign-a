@@ -174,8 +174,8 @@ get_header();
         </div>
         <div class="moving-text en">
             <div>
-                <p>Create for your servise and project.User <span class="pc-br">Interface/User Experience/Digital Contents</span></p>
-                <p class="sp-br">Create for your servise and project.User </p>
+                <p>Create for your servise and project.User <span class="sp-br">Interface/User Experience/Digital Contents Create for your servise and project.User Interface/User Experience/Digital Contents </span></p>
+                <p class="pc-br">Create for your servise and project.User </p>
             </div>
             <div class="sp-br">
                 <p>Interface/User Experience/Digital Contents </p>

@@ -1006,6 +1006,9 @@ footer{
         margin: 0;
         letter-spacing: 1.7px;
     }
+    #service .moving-text p .sp-br{
+        display: inline-block;
+    }
     #service .moving-text {
         padding-top: 32px;
     }
@@ -1197,9 +1200,9 @@ footer{
         animation: moving 20s linear infinite;
     }
     #service .moving-text > div:nth-child(1) p {
-        animation: moving 20s linear infinite;
+        animation: moving 80s linear infinite;
     }
-
+    
 }
 
 
