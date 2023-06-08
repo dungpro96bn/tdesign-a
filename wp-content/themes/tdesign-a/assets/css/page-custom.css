@@ -205,6 +205,41 @@
     padding-top: 0;
     margin-bottom: 40px;
 }
+#contact .mw_wp_form_complete{
+    text-align: center;
+    margin-top: 220px;
+}
+#contact .mw_wp_form_complete .title{
+    font-size: 30px;
+    line-height: 1.6;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+#contact .mw_wp_form_complete .text{
+    letter-spacing: 0.9px;
+}
+#contact .mw_wp_form_complete .link-page{
+    padding-top: 100px;
+}
+#contact .mw_wp_form_complete .link-page a{
+    width: 100%;
+    max-width: 760px;
+    height: 88px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+#contact .mw_wp_form_complete .link-page a:hover{
+    border-color: #E700F0;
+    color: #E700F0;
+}
 
 
 @media (max-width: 1440px) {
@@ -239,7 +274,10 @@
     #contact .main-banner{
         padding-top: 200px;
     }
-
+    #contact .mw_wp_form_complete .text{
+        font-size: 16px;
+        line-height: 32px;
+    }
 
 
 
@@ -389,7 +427,22 @@
     #contact .mw_wp_form_confirm .item-group .title .required{
         display: none;
     }
-
+    #contact .mw_wp_form_complete .link-page{
+        padding-top: 60px;
+    }
+    #contact .mw_wp_form_complete .link-page a{
+        height: 60px;
+        font-size: 17px;
+    }
+    #contact .mw_wp_form_complete{
+        margin-top: 50px;
+    }
+    #contact .mw_wp_form_complete .title{
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: 3px;
+        margin-bottom: 25px;
+    }
 
 
 

@@ -131,10 +131,34 @@
             </div>
             <nav class="header-menu">
                 <ul class="flex-L flex-column en">
-                    <li><a class="hov-C" href="#about">About Us</a></li>
-                    <li><a class="hov-C" href="#service">Our Business</a></li>
-                    <li><a href="#company">Company Information</a></li>
-                    <li><a class="btn-recruit btn-link" href="#recruit">Recruit</a></li>
+                    <li>
+                        <?php if(is_front_page()) :?>
+                        <a class="hov-C" href="#about">About Us</a>
+                        <?php else: ?>
+                            <a class="hov-C" href="/#about">About Us</a>
+                        <?php endif; ?>
+                    </li>
+                    <li>
+                        <?php if(is_front_page()) :?>
+                            <a class="hov-C" href="#service">Our Business</a>
+                        <?php else: ?>
+                            <a class="hov-C" href="/#service">Our Business</a>
+                        <?php endif; ?>
+                    </li>
+                    <li>
+                        <?php if(is_front_page()) :?>
+                            <a class="hov-C" href="#company">Company Information</a>
+                        <?php else: ?>
+                            <a class="hov-C" href="/#company">Company Information</a>
+                        <?php endif; ?>
+                    </li>
+                    <li>
+                        <?php if(is_front_page()) :?>
+                            <a class="btn-recruit btn-link" href="#recruit">Recruit</a>
+                        <?php else: ?>
+                            <a class="btn-recruit btn-link" href="/#recruit">Recruit</a>
+                        <?php endif; ?>
+                    </li>
                     <li><a class="btn-contact btn-link" href="/contact/">Contact US</a></li>
                 </ul>
             </nav>
