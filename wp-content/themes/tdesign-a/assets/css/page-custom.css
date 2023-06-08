@@ -22,7 +22,7 @@
     letter-spacing: 4px;
     display: block;
 }
-#contact .top-url{
+.template-pageContent .top-url{
     bottom: unset;
     z-index: 9;
     top: 310px;
@@ -242,6 +242,383 @@
 }
 
 
+/*service-page*/
+/*=======================================*/
+#service-page .main-banner{
+    position: relative;
+    background-image: url("/wp-content/uploads/service_banner_pc.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    padding-top: 193px;
+    padding-bottom: 216px;
+    padding-left: 24px;
+}
+#service-page .main-banner .info-top .ttl{
+    font-size: 29px;
+    line-height: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 23px;
+}
+#service-page .main-banner .text-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+#service-page .main-banner .txt-box{
+    width: 304px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 40px;
+    border: 2px solid #00D8FF;
+    color: #00D8FF;
+    letter-spacing: 3px;
+    padding-left: 5px;
+    margin: 0;
+}
+#service-page .main-banner .text-box span{
+    display: flex;
+    font-size: 40px;
+    line-height: 40px;
+    height: 64px;
+    color: #00D8FF;
+    align-items: center;
+    padding: 0 19px;
+}
+#service-page .main-banner .heading-main{
+    font-size: 79px;
+    line-height: 89px;
+    margin-bottom: 49px;
+}
+#service-page .main-banner .heading-main .t1{
+    letter-spacing: 9.5px;
+}
+#service-page .main-banner .text{
+    letter-spacing: 0.9px;
+    margin-bottom: 24px;
+}
+#service-page .main-banner .link-more{
+    position: relative;
+    padding-left: 22px;
+}
+#service-page .main-banner .link-more:before{
+    content: "";
+    background: url("./img/icon-link.svg") no-repeat center center;
+    background-size: cover;
+    width: 15px;
+    height: 11px;
+    position: absolute;
+    top: 11px;
+    left: 0px;
+    transition: .3s;
+}
+#service-page .main-banner .text-tag{
+    position: absolute;
+    font-size: 133px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: rgba(0,0,0,.40);
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1590px;
+    letter-spacing: 19px;
+}
+#service-page .main-banner .text-tag span{
+    display: inline-block;
+    padding: 13px 29px 0 14px;
+}
+#service-page .service-bg{
+    position: relative;
+    z-index: 2;
+    max-width: 44%;
+    margin: 0 0 0 auto;
+}
+#service-page .service-bg .bg-content{
+    margin: -430px 0 0 auto;
+    position: relative;
+    height: 624px;
+    display: flex;
+    align-items: center;
+}
+#service-page .service-bg .bg-content img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 1034px;
+    max-width: 1034px;
+}
+#service-page .service-bg .header-bg{
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    font-size: 60px;
+    line-height: 65px;
+    display: flex;
+    justify-content: center;
+    max-width: 650px;
+    letter-spacing: 2.3px;
+    padding: 0 20px;
+}
+#service-page .main-banner .text-tag.sp-br{
+    display: none;
+}
+#service-page .main-banner .text-tag.pc-br{
+    bottom: -4px;
+    padding: 0 20px;
+    max-width: 1630px;
+}
+#service-page .main-banner .text-tag picture{
+    display: block;
+    width: 55%;
+}
+#service-page .service-features{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 76px;
+    align-items: center;
+    padding-bottom: 107px;
+}
+#service-page .service-features .image-service-features{
+    position: relative;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+#service-page .service-features .image-service-features img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    max-width: none;
+    top: 0;
+    right: 0;
+}
+#service-page .service-features .image-service-features .title{
+    font-size: 60px;
+    line-height: 60px;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    max-width: 570px;
+    display: block;
+    width: 100%;
+    padding-top: 2px;
+    letter-spacing: 5.3px;
+}
+#service-page .service-features .heading-block{
+    position: relative;
+    padding-bottom: 38px;
+    margin-bottom: 35px;
+}
+#service-page .service-features .heading-block:after{
+    content: "";
+    position: absolute;
+    width: 68px;
+    height: 2px;
+    background: #00D8FF;
+    bottom: 0;
+    left: 0;
+}
+#service-page .service-features .heading-block.active:after{
+    width: 100%;
+}
+#service-page .service-features .heading-block .ttl-ja{
+    display: block;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 3.5px;
+    margin-bottom: 17px;
+}
+#service-page .service-features .heading-block .ttl-en{
+    display: block;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+#service-page .service-features .info-text{
+    letter-spacing: 0.9px;
+    margin-bottom: 40px;
+}
+#service-page .service-features .info-text p {
+    margin-bottom: 35px;
+    position: relative;
+    margin-right: -30px;
+}
+#service-page .service-features .info-text p:last-child{
+    margin-bottom: 0;
+}
+#service-page .service-features .link-more{
+    position: relative;
+    padding-left: 21px;
+}
+#service-page .service-features .link-more:after{
+    content: "";
+    background: url("./img/icon-link.svg") no-repeat center center;
+    background-size: cover;
+    width: 15px;
+    height: 11px;
+    position: absolute;
+    top: 11px;
+    left: 0px;
+}
+#service-page .info-service-features{
+    padding-left: 117px;
+    padding-top: 26px;
+}
+#service-page .service-lineup{
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+#service-page .service-lineup .heading-block{
+    margin-bottom: 47px;
+}
+#service-page .service-lineup .heading-block .ttl-en{
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 5.3px;
+    margin-bottom: 3px;
+}
+#service-page .service-lineup .heading-block .ttl-ja{
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.9px;
+}
+#service-page .service-lineup .lineup-list{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 54px;
+    row-gap: 41px;
+}
+#service-page .service-lineup .lineup-item{
+    border: 1px solid #fff;
+    padding-bottom: 40px;
+    min-height: 508px;
+}
+#service-page .service-lineup .lineup-item .icon{
+    min-height: 189px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+    margin: 0 30px 32px;
+}
+#service-page .service-lineup .lineup-item .title{
+    line-height: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+#service-page .service-lineup .lineup-item .text{
+    font-size: 20px;
+    line-height: 28px;
+    color: #D1D1D1;
+    font-weight: 400;
+    padding: 0 36px 0 36px;
+    letter-spacing: 2px;
+}
+#service-page .work-flow{
+    padding-top: 120px;
+    padding-bottom: 126px;
+}
+#service-page .work-flow .heading-block{
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 4.4px;
+    margin-bottom: 42px;
+}
+#service-page .work-flow .work-flow-item{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #FFFFFF;
+    padding: 60px 3px;
+}
+#service-page .work-flow .work-flow-item:last-child{
+    border-bottom: 1px solid #fff;
+}
+#service-page .work-flow .work-flow-item .number{
+    font-size: 50px;
+    line-height: 60px;
+    width: 16.5%;
+    padding-left: 24px;
+}
+#service-page .work-flow .work-flow-item .info{
+    width: 83.5%;
+}
+#service-page .work-flow .work-flow-item dt{
+    letter-spacing: 1.6px;
+    margin-bottom: 9px;
+}
+#service-page .work-flow .work-flow-item dd{
+    letter-spacing: 0.9px;
+}
+#service-page .work-flow .work-flow-item .num{
+    display: none;
+}
+#service-page .work-flow .work-flow-item .number p{
+    display: inline-block;
+    letter-spacing: 4px;
+    position: relative;
+    top: -4px;
+    width: 68px;
+    text-align: center;
+}
+#service-page .work-flow .work-flow-item .number p:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #00D8FF;
+    bottom: -14px;
+    left: 0;
+}
+#service-page .work-flow .work-flow-list{
+    margin-bottom: 156px;
+}
+#service-page .work-flow .text-note{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 48px;
+}
+#service-page .work-flow .link-more{
+    font-size: 58px;
+    line-height: 60px;
+    text-decoration: none;
+    display: flex;
+    border: 1px solid #fff;
+    height: 217px;
+    border-radius: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    letter-spacing: 6px;
+    transition: 0s;
+}
+#service-page .work-flow .link-more:hover{
+    border-color: #E700F0;
+    color: #E700F0;
+}
+#service-page .work-flow .link-more span{
+    border-bottom: 1px solid transparent;
+    padding-bottom: 5px;
+    transition: .3s;
+}
+#service-page .work-flow .link-more:hover span{
+    border-color: #E700F0;
+}
+
+
+
+
+
+
 @media (max-width: 1440px) {
 
     #contact .contact-bg .bg-content img{
@@ -255,8 +632,128 @@
     }
 
 
+    /*service-page*/
+    /*=====================================*/
+    #service-page .main-banner .heading-main{
+        font-size: 60px;
+        line-height: 67px;
+        margin-bottom: 35px;
+    }
+    #service-page .main-banner .info-top .ttl{
+        font-size: 22px;
+    }
+    #service-page .main-banner .txt-box{
+        width: 280px;
+        height: 60px;
+        font-size: 24px;
+        line-height: 40px;
+        padding-left: 0;
+    }
+    #service-page .main-banner .text-box span{
+        font-size: 28px;
+    }
+    #service-page .service-features .info-text p{
+        margin-right: 0;
+    }
+    #service-page .info-service-features {
+        padding-left: 60px;
+        padding-top: 0;
+    }
+    #service-page .service-bg .header-bg{
+        font-size: 40px;
+        line-height: 43px;
+    }
+    #service-page .service-bg .bg-content img{
+        width: auto;
+    }
+    #service-page .service-bg .bg-content {
+        margin: -330px 0 0 auto;
+        height: 500px;
+    }
+    #service-page .service-features .image-service-features{
+        height: 640px;
+    }
+    #service-page .service-features .image-service-features .title{
+        font-size: 40px;
+        line-height: 43px;
+    }
+    #service-page .service-features .heading-block .ttl-ja {
+        font-size: 50px;
+        line-height: 58px;
+        letter-spacing: 3.5px;
+        margin-bottom: 12px;
+    }
+    #service-page .service-features .heading-block .ttl-en {
+        display: block;
+        font-size: 28px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+    #service-page .service-features .info-text p {
+        margin-bottom: 30px;
+    }
+    #service-page .service-features{
+        padding-bottom: 40px;
+    }
+    #service-page .service-lineup .heading-block .ttl-en {
+        font-size: 46px;
+        line-height: 50px;
+    }
+    #service-page .service-lineup .heading-block .ttl-ja {
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.9px;
+    }
+    #service-page .service-lineup .lineup-item .text{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    #service-page .service-lineup .lineup-item{
+        min-height: 480px;
+    }
+    #service-page .service-lineup{
+        padding-bottom: 40px;
+    }
+    #service-page .work-flow .link-more{
+        font-size: 40px;
+    }
+    #service-page .work-flow .heading-block{
+        font-size: 46px;
+        line-height: 50px;
+    }
+    #service-page .work-flow .work-flow-item .number{
+        font-size: 40px;
+        line-height: 54px;
+    }
+
+
+
+
 }
 
+
+@media (max-width: 1280px) {
+
+    #service-page .service-lineup .lineup-list{
+        column-gap: 30px;
+        row-gap: 25px;
+    }
+    #service-page .service-lineup .lineup-item .text {
+        font-size: 14px;
+        line-height: 23px;
+        padding: 0 25px;
+    }
+    #service-page .service-lineup .lineup-item .icon{
+        margin: 0 25px 25px;
+        min-height: 170px;
+    }
+    #service-page .service-lineup .lineup-item{
+        min-height: auto;
+    }
+
+
+
+}
 
 
 @media (max-width: 1000px) {
@@ -280,6 +777,118 @@
     }
 
 
+    /*service-page*/
+    /*=======================================*/
+    #service-page .main-banner {
+        padding-top: 180px;
+        padding-bottom: 180px;
+        padding-left: 0;
+    }
+    #service-page .main-banner .heading-main {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    #service-page .main-banner .txt-box {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 0;
+    }
+    #service-page .main-banner .text-box span {
+        font-size: 26px;
+        height: 50px;
+    }
+    #service-page .main-banner .text-box{
+        margin-bottom: 20px;
+    }
+    #service-page .main-banner .info-top .ttl {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+    #service-page .service-bg .header-bg {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    #service-page .service-bg .bg-content {
+        margin: -262px 0 0 auto;
+        height: 400px;
+    }
+    #service-page .service-features .image-service-features .title{
+        font-size: 30px;
+        line-height: 34px;
+    }
+    #service-page .service-features .image-service-features {
+        height: 512px;
+    }
+    #service-page .info-service-features{
+        padding-left: 30px;
+    }
+    #service-page .service-features .heading-block .ttl-ja {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    #service-page .service-features .heading-block .ttl-en {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    #service-page .service-features .heading-block{
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+    #service-page .service-features .info-text p {
+        margin-bottom: 26px;
+    }
+    #service-page .service-features .info-text{
+        margin-bottom: 25px;
+    }
+    #service-page .service-lineup {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    #service-page .service-lineup .heading-block .ttl-en {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    #service-page .service-lineup .heading-block .ttl-ja {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.9px;
+    }
+    #service-page .service-lineup .lineup-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+        row-gap: 25px;
+    }
+    #service-page .work-flow {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #service-page .work-flow .work-flow-item .number {
+        font-size: 40px;
+        line-height: 54px;
+        width: 22%;
+        padding-left: 24px;
+    }
+    #service-page .work-flow .work-flow-item .info {
+        width: 78%;
+    }
+    #service-page .work-flow .work-flow-item{
+        padding: 40px 0;
+    }
+    #service-page .work-flow .work-flow-list {
+        margin-bottom: 100px;
+    }
+    #service-page .work-flow .link-more{
+        font-size: 28px;
+        line-height: 40px;
+        height: 160px;
+        padding: 0 40px;
+    }
+
 
 
 
@@ -289,7 +898,7 @@
 
 @media (max-width: 767px) {
 
-    #contact .top-url {
+    .template-pageContent .top-url {
         bottom: unset;
         z-index: 9;
         top: 167px;
@@ -443,6 +1052,282 @@
         letter-spacing: 3px;
         margin-bottom: 25px;
     }
+
+
+
+    /*service-page*/
+    /*========================*/
+    #service-page .main-banner {
+        padding-top: 89px;
+        padding-bottom: 193px;
+        padding-left: 0;
+        background-image: url("/wp-content/uploads/service_banner_sp.png");
+    }
+    #service-page .main-banner .container{
+        padding: 0 22px;
+        position: relative;
+        z-index: 5;
+    }
+    #service-page .main-banner .info-top .ttl {
+        font-size: 23px;
+        margin-bottom: 13px;
+        line-height: 26px;
+        letter-spacing: 2.3px;
+    }
+    #service-page .main-banner .txt-box {
+        width: 124px;
+        height: 30px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 0;
+        border-width: 1px;
+        letter-spacing: 1.5px;
+    }
+    #service-page .main-banner .text-box span {
+        font-size: 16px;
+        height: 30px;
+        padding: 0 6px;
+    }
+    #service-page .main-banner .text-box {
+        margin-bottom: 29px;
+    }
+    #service-page .main-banner .heading-main .t1 {
+        letter-spacing: 3px;
+    }
+    #service-page .main-banner .heading-main {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 14px;
+        letter-spacing: 3px;
+    }
+    #service-page .main-banner .text {
+        letter-spacing: 0;
+        margin-bottom: 12px;
+        line-height: 23px;
+        padding-right: 10px;
+    }
+    #service-page .main-banner .link-more {
+        font-size: 12.5px;
+    }
+    #service-page .main-banner .link-more:before{
+        top: 7px;
+    }
+    #service-page .main-banner .text-tag span {
+        display: inline-block;
+        padding: 0;
+        position: relative;
+        left: -3px;
+        margin: 33px 0 18px 0;
+    }
+    #service-page .main-banner .text-tag span img{
+        width: 40px;
+        opacity: .40;
+    }
+    #service-page .main-banner .text-tag.sp-br {
+        display: flex;
+        font-size: 74px;
+        left: 0;
+        width: 50px;
+        height: auto;
+        transform: unset;
+        writing-mode: vertical-rl;
+        bottom: 0px;
+        letter-spacing: 11px;
+    }
+    #service-page .main-banner .text-tag.pc-br{
+        display: none;
+    }
+    #service-page .service-bg {
+        max-width: 72.5%;
+    }
+    #service-page .service-bg .bg-content {
+        margin: -36% 0 0 auto;
+        height: 0;
+        padding-bottom: 115.5%;
+    }
+    #service-page .service-bg .header-bg {
+        font-size: 30px;
+        line-height: 32.5px;
+        position: absolute;
+        top: 49%;
+        transform: translateY(-50%);
+        width: 100%;
+        justify-content: center;
+        letter-spacing: 1.2px;
+    }
+    #service-page .service-bg .header-bg .heading-block{
+        padding-left: 51px;
+        white-space: nowrap;
+    }
+    #service-page .service-features{
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 52px;
+        padding-bottom: 0;
+    }
+    #service-page .service-features .image-service-features {
+        height: 0;
+        padding-bottom: 127%;
+        margin-right: 3px;
+        margin-bottom: 48px;
+    }
+    #service-page .service-features .image-service-features .title {
+        font-size: 30px;
+        line-height: 34px;
+        padding-right: 0;
+        letter-spacing: 1.2px;
+    }
+    #service-page .service-features .image-service-features .title {
+        font-size: 30px;
+        line-height: 34px;
+        padding-right: 0;
+        letter-spacing: 2.5px;
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 43%;
+        transform: translate(-50%, -50%);
+    }
+    #service-page .info-service-features {
+        padding-left: 0;
+    }
+    #service-page .service-features .heading-block .ttl-ja {
+        font-size: 33.5px;
+        line-height: 33px;
+        letter-spacing: 1.5px;
+        margin-bottom: 7px;
+    }
+    #service-page .service-features .heading-block .ttl-en {
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.6px;
+    }
+    #service-page .service-features .heading-block:after{
+        height: 1px;
+        width: 35px;
+    }
+    #service-page .service-features .heading-block {
+        padding-bottom: 22px;
+        margin-bottom: 29px;
+    }
+    #service-page .service-features .info-text p {
+        margin-bottom: 26px;
+        letter-spacing: 0.6px;
+        padding-right: 5px;
+    }
+    #service-page .service-features .link-more:after{
+        top: 5px;
+    }
+    #service-page .service-features .info-text {
+        margin-bottom: 16px;
+    }
+    #service-page .service-lineup .heading-block .ttl-en {
+        font-size: 38px;
+        line-height: 46px;
+        letter-spacing: 1.4px;
+        margin-bottom: 7px;
+    }
+    #service-page .service-lineup {
+        padding-top: 58px;
+        padding-bottom: 0;
+    }
+    #service-page .service-lineup .heading-block .ttl-ja {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        display: block;
+    }
+    #service-page .service-lineup .lineup-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+        row-gap: 21px;
+    }
+    #service-page .service-lineup .lineup-item .title {
+        line-height: 30px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 14px;
+        letter-spacing: 1.5px;
+    }
+    #service-page .service-lineup .lineup-item .icon {
+        margin: 0 22px 21px;
+        min-height: 144px;
+    }
+    #service-page .service-lineup .lineup-item .text {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 22px;
+        letter-spacing: 0.3px;
+    }
+    #service-page .service-lineup .lineup-item{
+        padding-bottom: 20px;
+    }
+    #service-page .work-flow {
+        padding-top: 54px;
+        padding-bottom: 40px;
+    }
+    #service-page .work-flow .heading-block {
+        font-size: 38px;
+        line-height: 40px;
+        letter-spacing: 1px;
+        margin-bottom: 21px;
+    }
+    #service-page .work-flow .work-flow-item .number{
+        display: none;
+    }
+    #service-page .work-flow .work-flow-item .info {
+        width: 100%;
+    }
+    #service-page .work-flow .work-flow-item .num{
+        display: inline-block;
+    }
+    #service-page .work-flow .work-flow-item .num {
+        display: inline-block;
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 300;
+        position: relative;
+        letter-spacing: 3px;
+        padding-left: 1px;
+        margin-right: 22px;
+        top: -4px;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 9px;
+    }
+    #service-page .work-flow .work-flow-item dt {
+        letter-spacing: 1.6px;
+        margin-bottom: 13px;
+        font-size: 16px;
+    }
+    #service-page .work-flow .work-flow-item dd {
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+    #service-page .work-flow .work-flow-list {
+        margin-bottom: 29px;
+    }
+    #service-page .work-flow .text-note {
+        text-align: center;
+        letter-spacing: 0;
+        margin-bottom: 74px;
+        line-height: 20px;
+    }
+    #service-page .work-flow .link-more {
+        font-size: 14px;
+        line-height: 20px;
+        height: 46px;
+        padding: 0;
+        letter-spacing: 1.4px;
+    }
+
+
+
+
+
+
+
+
+
 
 
 

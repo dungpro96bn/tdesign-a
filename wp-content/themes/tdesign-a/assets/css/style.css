@@ -137,6 +137,7 @@ body > .wrapper {
     bottom: 83px;
     letter-spacing: 0.8px;
     padding: 56px;
+    z-index: 99;
 }
 
 .top-url p {

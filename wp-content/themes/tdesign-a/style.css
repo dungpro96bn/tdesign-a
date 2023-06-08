@@ -11,6 +11,10 @@ Author URI: http://www.1049.cc
 .en, .ttl-en, .number{
     font-family: "freight-big-pro", serif;
 }
+.noto-san{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 main{
     flex: 1 1 auto;
 }

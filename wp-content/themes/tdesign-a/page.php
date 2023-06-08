@@ -4,7 +4,11 @@ global $post;
 $post_slug = $post->post_name;
 ?>
 
-<div id="template-<?php echo $post_slug; ?>">
+<div id="template-<?php echo $post_slug; ?>" class="template-pageContent">
+
+    <div class="top-url">
+        <p>tokyodesignarts.com</p>
+    </div>
 
     <?php
     if (have_posts()) : while (have_posts()) : the_post();
