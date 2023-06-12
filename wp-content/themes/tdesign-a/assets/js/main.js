@@ -46,5 +46,10 @@ jQuery(function ($) {
         }
     });
 
+    var check = $("#contact .item-group:nth-child(6) .error");
+    if(check.length !== 0){
+        $("#contact .item-group:nth-child(6) .error").text("選んでください");
+    }
+
 
 });
