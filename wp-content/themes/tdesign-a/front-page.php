@@ -219,11 +219,11 @@ get_header();
                         <div class="info">
                             <div class="text-info">
                                 <p>〒105-0012<br/>東京都港区芝大門1丁目10番11号<br/>西新宿オフィス</p>
-                                <a href="#" class="google-map"><img src="/wp-content/uploads/icon-map.png" width="12">Google Map</a>
+                                <a target="_blank" href="https://goo.gl/maps/jgjGWAuZbGkum4jGA" class="google-map"><img src="/wp-content/uploads/icon-map.png" width="12">Google Map</a>
                             </div>
                             <div class="text-info">
                                 <p>〒163-0638<br/>東京都新宿区西新宿1丁目25−1<br/>新宿センタービル 38F</p>
-                                <a href="#" class="google-map"><img src="/wp-content/uploads/icon-map.png" width="12">Google Map</a>
+                                <a target="_blank" href="https://goo.gl/maps/RPskxpYZusvabXLr9" class="google-map"><img src="/wp-content/uploads/icon-map.png" width="12">Google Map</a>
                             </div>
                         </div>
                     </li>
