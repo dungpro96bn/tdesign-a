@@ -62,6 +62,9 @@
 #contact .description-form .text{
     letter-spacing: 0.9px;
 }
+#contact.confirm-page .description-form .text{
+    font-size: 20px;
+}
 #contact .description-form{
     margin-bottom: 62px;
 }
@@ -1077,7 +1080,9 @@
         font-size: 14px;
         line-height: 25px;
     }
-
+    #contact.confirm-page .description-form .text{
+        font-size: 14px;
+    }
 
 
     /*service-page*/

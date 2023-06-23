@@ -184,7 +184,7 @@
                     <li><a class="hov-C" href="#about">About Us</a></li>
                     <li><a class="hov-C" href="#service">Our Business</a></li>
                     <li><a href="#company">Company Information</a></li>
-                    <li class="menuItem-recruit"><a class="hov-G btn-recruit btn-link" href="#recruit">Recruit</a></li>
+                    <li class="menuItem-recruit"><a target="_blank" class="hov-G btn-recruit btn-link" href="https://ten.1049.cc/tp/1049creator/">Recruit</a></li>
                     <li class="menuItem-contact"><a class="hov-M btn-contact btn-link" href="/contact/">Contact US</a></li>
                 </ul>
                 <p class="copyright">Copyright ©Tokyo Design ARTS, Inc.</p>
