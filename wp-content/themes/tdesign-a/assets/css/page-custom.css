@@ -198,16 +198,12 @@
     flex-wrap: wrap;
 }
 #contact .mw_wp_form_confirm .submit-form .btn-submit {
-    width: 46%;
-    margin: 0 2%;
+    width: 100%;
+    margin: auto;
 }
 #contact .mw_wp_form_confirm .item-group:nth-child(6) {
     padding-top: 0;
     margin-bottom: 40px;
-}
-#contact .mw_wp_form_complete{
-    text-align: center;
-    margin-top: 220px;
 }
 #contact .mw_wp_form_complete .title{
     font-size: 30px;
@@ -217,13 +213,17 @@
 }
 #contact .mw_wp_form_complete .text{
     letter-spacing: 0.9px;
+    font-size: 20px;
 }
 #contact .mw_wp_form_complete .link-page{
-    padding-top: 100px;
+    padding-top: 35px;
+}
+#contact.complete-page{
+    min-height: 100vh;
 }
 #contact .mw_wp_form_complete .link-page a{
     width: 100%;
-    max-width: 760px;
+    max-width: 352px;
     height: 88px;
     border: 1px solid #fff;
     border-radius: 50px;
@@ -231,7 +231,6 @@
     letter-spacing: 2px;
     cursor: pointer;
     display: flex;
-    margin: auto;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -240,6 +239,15 @@
     border-color: #E700F0;
     color: #E700F0;
 }
+#contact.confirm-page,
+#contact.complete-page{
+    padding-top: 300px;
+}
+#contact.confirm-page .contact-form,
+#contact.complete-page .contact-form{
+    margin-top: 0;
+}
+
 
 
 /*service-page*/
@@ -905,6 +913,10 @@
         right: -2px;
     }
 
+    #contact.confirm-page,
+    #contact.complete-page {
+        padding-top: 120px;
+    }
     #contact .main-banner{
         background-image: url("/wp-content/uploads/contact_banner_sp.png");
         padding-top: 222px;
@@ -974,6 +986,20 @@
     }
     #contact .description-form {
         margin-bottom: 32px;
+        position: relative;
+    }
+    #contact.confirm-page .description-form{
+        padding-bottom: 35px;
+        margin-bottom: 40px;
+    }
+    #contact.confirm-page .description-form:after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 65px;
+        height: 1px;
+        background: #fff;
     }
     #contact .item-group .title br{
         display: none;
@@ -1036,21 +1062,20 @@
     #contact .mw_wp_form_confirm .item-group .title .required{
         display: none;
     }
-    #contact .mw_wp_form_complete .link-page{
-        padding-top: 60px;
-    }
     #contact .mw_wp_form_complete .link-page a{
         height: 60px;
-        font-size: 17px;
-    }
-    #contact .mw_wp_form_complete{
-        margin-top: 50px;
+        font-size: 15px;
+        max-width: 200px;
     }
     #contact .mw_wp_form_complete .title{
-        font-size: 20px;
+        font-size: 17px;
         line-height: 1.6;
         letter-spacing: 3px;
         margin-bottom: 25px;
+    }
+    #contact .mw_wp_form_complete .text{
+        font-size: 14px;
+        line-height: 25px;
     }
 
 
