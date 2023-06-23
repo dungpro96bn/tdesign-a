@@ -218,8 +218,7 @@ get_header();
                         <p class="ttl"><span>所</span><span>在</span><span>地</span></p>
                         <div class="info">
                             <div class="text-info">
-                                <p>〒105-0012<br/>東京都港区芝大門1丁目10番11号<br/>西新宿オフィス</p>
-                                <a target="_blank" href="https://goo.gl/maps/jgjGWAuZbGkum4jGA" class="google-map"><img src="/wp-content/uploads/icon-map.png" width="12">Google Map</a>
+                                <p>〒105-0012<br/>東京都港区芝大門1丁目10番11号</p>
                             </div>
                             <div class="text-info">
                                 <p>〒163-0638<br/>東京都新宿区西新宿1丁目25−1<br/>新宿センタービル 38F</p>

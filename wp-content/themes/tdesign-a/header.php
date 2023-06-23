@@ -163,11 +163,7 @@
                         <?php endif; ?>
                     </li>
                     <li>
-                        <?php if(is_front_page()) :?>
-                            <a class="btn-recruit btn-link" href="#recruit">Recruit</a>
-                        <?php else: ?>
-                            <a class="btn-recruit btn-link" href="/#recruit">Recruit</a>
-                        <?php endif; ?>
+                        <a target="_blank" class="btn-recruit btn-link" href="https://ten.1049.cc/tp/1049creator/">Recruit</a>
                     </li>
                     <li><a class="btn-contact btn-link" href="/contact/">Contact US</a></li>
                 </ul>
