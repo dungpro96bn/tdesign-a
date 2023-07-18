@@ -150,9 +150,9 @@
                     </li>
                     <li>
                         <?php if(is_front_page()) :?>
-                            <a class="hov-C" href="#service">Our Business</a>
+                            <a class="hov-C" href="/service">Our Business</a>
                         <?php else: ?>
-                            <a class="hov-C" href="/#service">Our Business</a>
+                            <a class="hov-C" href="/service">Our Business</a>
                         <?php endif; ?>
                     </li>
                     <li>
@@ -182,7 +182,7 @@
                 </div>
                 <ul class="drawer-menu">
                     <li><a class="hov-C" href="#about">About Us</a></li>
-                    <li><a class="hov-C" href="#service">Our Business</a></li>
+                    <li><a class="" href="/service">Our Business</a></li>
                     <li><a href="#company">Company Information</a></li>
                     <li class="menuItem-recruit"><a target="_blank" class="hov-G btn-recruit btn-link" href="https://ten.1049.cc/tp/1049creator/">Recruit</a></li>
                     <li class="menuItem-contact"><a class="hov-M btn-contact btn-link" href="/contact/">Contact US</a></li>
