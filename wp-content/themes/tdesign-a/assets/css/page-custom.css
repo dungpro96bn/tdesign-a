@@ -552,6 +552,7 @@
     flex-wrap: wrap;
     border-top: 1px solid #FFFFFF;
     padding: 60px 3px;
+    font-family: "fot-tsukumin-pr6n", sans-serif;
 }
 #service-page .work-flow .work-flow-item:last-child{
     border-bottom: 1px solid #fff;
