@@ -303,7 +303,7 @@ get_header();
                         <a href="http://ten.1049.cc/job/20397482" class="icon-link">動画ディレクター</a>
                     </li>
                     <li>
-                        <a href="https://ten.1049.cc/job/20428795" class="icon-link">会社商標担当(デザイナー)</a>
+                        <a href="https://ten.1049.cc/job/20428795" class="icon-link">プロジェクトマネージャー/マーケッター</a>
                     </li>
                     <li>
                         <a href="https://ten.1049.cc/job/20397505" class="icon-link">社内ツール担当(デザイナー/マーケ)</a>
