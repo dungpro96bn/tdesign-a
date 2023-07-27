@@ -300,28 +300,28 @@ get_header();
             <div class="recruit-menu">
                 <ul class="flex-L">
                     <li>
-                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E5%8B%95%E7%94%BB%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC&amp;body=" class="icon-link">動画ディレクター</a>
+                        <a href="http://ten.1049.cc/job/20397482" class="icon-link">動画ディレクター</a>
                     </li>
                     <li>
-                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E4%BC%9A%E7%A4%BE%E5%95%86%E6%A8%99%E6%8B%85%E5%BD%93(%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8A%E3%83%BC)&amp;body=" class="icon-link">会社商標担当(デザイナー)</a>
+                        <a href="https://ten.1049.cc/job/20428795" class="icon-link">会社商標担当(デザイナー)</a>
                     </li>
                     <li>
-                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E7%A4%BE%E5%86%85%E3%83%84%E3%83%BC%E3%83%AB%E6%8B%85%E5%BD%93(%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8A%E3%83%BC/%E3%83%9E%E3%83%BC%E3%82%B1)&amp;body=" class="icon-link">社内ツール担当(デザイナー/マーケ)</a>
+                        <a href="https://ten.1049.cc/job/20397505" class="icon-link">社内ツール担当(デザイナー/マーケ)</a>
                     </li>
                     <li>
-                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91WEB%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC(%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC)&amp;body=" class="icon-link">WEBプランナー(ディレクター)</a>
+                        <a href="https://ten.1049.cc/job/20397507" class="icon-link">WEBプランナー(ディレクター)</a>
                     </li>
                     <li>
-                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91WEB%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC&amp;body=" class="icon-link">WEBディレクター</a>
+                        <a href="https://ten.1049.cc/job/20397483" class="icon-link">WEBディレクター</a>
                     </li>
                     <li>
-                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8A%E3%83%BC&amp;body=" class="icon-link">デザイナー</a>
+                        <a href="https://ten.1049.cc/job/20428925" class="icon-link">デザイナー</a>
                     </li>
                     <li>
-                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC&amp;body=" class="icon-link">コーダー</a>
+                        <a href="https://ten.1049.cc/job/20428929" class="icon-link">コーダー</a>
                     </li>
                     <li>
-                        <a href="mailto:arts@sougo-group.jp?subject=Tokyo%20Design%20ARTS%20%7C%20%20%E3%80%90%E6%8E%A1%E7%94%A8%E3%80%91%E5%BA%83%E5%91%8A%E9%81%8B%E7%94%A8%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%82%BF%E3%83%BC&amp;body=" class="icon-link">広告運用マーケッター</a>
+                        <a href="http://ten.1049.cc/job/20397513" class="icon-link">広告運用マーケッター</a>
                     </li>
                 </ul>
                 <p class="txt-title en">フリーランス採用もおこなっております</p>
