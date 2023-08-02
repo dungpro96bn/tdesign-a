@@ -1067,7 +1067,7 @@ body > .wrapper {
 .recruit-menu li a.icon-link::after {
     content: "";
     background: url("img/icon-link.svg") no-repeat center center;
-    background-size: cover;
+    background-size: 100%;
     width: 22px;
     height: 17px;
     position: absolute;
